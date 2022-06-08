@@ -1,0 +1,11 @@
+.nav{
+  display: flex;
+  justify-content: flex-end;
+  border: solid rgba(164, 159, 58, 0.703) 1px;
+  background-color: black;
+  
+}
+
+.nav Link{
+ margin-inline: 20px;
+}

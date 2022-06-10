@@ -8,7 +8,7 @@ import CatchingPokeMonIcon from '@mui/icons-material/CatchingPokemon'
 const Navbar = () => {
   return (
     <>
-      <AppBar position='static' style={{backgroundColor: "black"}}>
+      <AppBar position='static' style={{backgroundColor: "black", position: "fixed"}}>
         <Toolbar>
           <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
               <CatchingPokeMonIcon />

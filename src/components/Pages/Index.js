@@ -1,27 +1,21 @@
-import React from "react";
-import { Grid, Typography} from "@mui/material";
+import React, {Fragment} from "react";
+import { Container, Grid} from "@mui/material";
+import Header from "../header-component/Header";
 
 const Index = () => {
-
-
   return (
-    <div> 
-      <Grid container>
-          <Typography>
-            This is the welcome page 
-          </Typography>
+  <>
+    <Container> 
+        <Grid container spacing={2}>
+          <Grid item xs={12} md={6}>
+            <h1>hello</h1>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <h1>hello</h1>
+          </Grid>
       </Grid>
-      
-      <Grid container spacing={2}>
-        <Grid item md={6}>
-           <h1>hello</h1>
-        </Grid>
-        <Grid item md={6}>
-          {/* <Item>xs=4</Item> */}
-          <h1>hello</h1>
-        </Grid>
-  </Grid>
-  </div>
+    </Container>
+  </>
   )
 }
 

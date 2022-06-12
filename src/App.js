@@ -1,6 +1,6 @@
 import './App.css';
-import TextInput from './TextInput';
-import CharCout from './CharCout';
+// import TextInput from './TextInput';
+// import CharCout from './CharCout';
 import React from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Index from './components/Pages/Index';

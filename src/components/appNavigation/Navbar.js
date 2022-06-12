@@ -19,7 +19,7 @@ const Navbar = () => {
               <Link to='/' style={{textDecoration: 'none', color:'inherit'}}> Home</Link>
               <Link to='/about' style={{textDecoration: 'none', color:'inherit'}}> About</Link>
               <Link to='/contact' style={{textDecoration: 'none', color:'inherit'}}>Contact</Link>
-              <Link to='/our-products' style={{textDecoration: 'none', color:'inherit'}}> Our products</Link>
+              <Link to='/our-products' style={{textDecoration: 'none', color:'inherit'}}> Our services</Link>
             </Stack>
         </Toolbar>
       </AppBar>      

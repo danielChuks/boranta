@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Navbar.css'
 import {AppBar, IconButton, Stack, Toolbar, Typography} from '@mui/material'
 import CatchingPokeMonIcon from '@mui/icons-material/CatchingPokemon'
+import Timer from '../Timer';
 
 const Navbar = () => {
   return (
@@ -16,6 +17,7 @@ const Navbar = () => {
                 <Link to='/' style={{textDecoration: 'none', color:'inherit'}}>CUBUK</Link>
             </Typography>
             <Stack direction='row' spacing={2}>
+              <Timer/>
               <Link to='/' style={{textDecoration: 'none', color:'inherit'}}> Home</Link>
               <Link to='/about' style={{textDecoration: 'none', color:'inherit'}}> About</Link>
               <Link to='/contact' style={{textDecoration: 'none', color:'inherit'}}>Contact</Link>

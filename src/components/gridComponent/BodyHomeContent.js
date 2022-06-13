@@ -22,7 +22,7 @@ const BodyHomeContent = () => {
     <div>
     <Container>
       <Grid container>
-        {values.map( value => (
+        {values.map(value => (
           <Grid item key={value.id} xs={12} md={12} lg={12}>
             <Grid>
              <Box style={{marginTop: '30px', marginButtom: "40px"}}>
@@ -41,4 +41,4 @@ const BodyHomeContent = () => {
   )
 }
 
-export default BodyHomeContent
+export default BodyHomeContent;

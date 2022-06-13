@@ -5,10 +5,11 @@ import {AppBar, IconButton, Stack, Toolbar, Typography} from '@mui/material'
 import CatchingPokeMonIcon from '@mui/icons-material/CatchingPokemon'
 import Timer from '../Timer';
 
+
 const Navbar = () => {
   return (
     <>
-      <AppBar  style={{backgroundColor: "black", position: "fixed" }}>
+      <AppBar style={{backgroundColor: "black", position: "fixed" }}>
         <Toolbar>
           <IconButton size='large' edge='start' color='inherit' aria-label='logo'>
               <CatchingPokeMonIcon />
@@ -20,11 +21,11 @@ const Navbar = () => {
               <Timer/>
               <Link to='/' style={{textDecoration: 'none', color:'inherit'}}> Home</Link>
               <Link to='/about' style={{textDecoration: 'none', color:'inherit'}}> About</Link>
+              <Link to='/our-services' style={{textDecoration: 'none', color:'inherit'}}> Our services</Link>
               <Link to='/contact' style={{textDecoration: 'none', color:'inherit'}}>Contact</Link>
-              <Link to='/our-products' style={{textDecoration: 'none', color:'inherit'}}> Our services</Link>
             </Stack>
         </Toolbar>
-      </AppBar>      
+      </AppBar>    
     </>
   )
 } 

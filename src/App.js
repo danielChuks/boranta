@@ -7,19 +7,23 @@ import Index from './components/Pages/Index';
 import About from './components/Pages/About'
 import Contact from './components/Pages/Contact';
 import Navbar from './components/appNavigation/Navbar';
+import Error from './components/Pages/Error'
+import Services from './components/Pages/Services';
+
+
 
 const App = () => {
   return (
-         <div>
-            <Router>
-              <Navbar />
+     <Router>
+            <Navbar />
                 <Routes>
                     <Route path='/' element={<Index />}> </Route>
                     <Route path='/about' element={<About />}></Route>
                     <Route path='/contact' element={<Contact />}></Route>
+                    <Route path='/our-services' element={<Services />}></Route>
+                    <Route path='*' element={<Error />}></Route>
                 </Routes>
-            </Router>
-         </div>
+      </Router>  
   );
 }
 
